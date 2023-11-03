@@ -1,0 +1,119 @@
+body{
+    background-color: white;/*white background*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*maim website font*/
+    font-size: 16px;/*default website font-size*/
+    text-align: center;/*default text orientation*/
+}
+.container{
+    width: 80%;/*making website to be boxed*/
+    background-color: #013220;/*white website background*/
+    margin: 0 auto;/*Aligning the website color*/
+}
+
+h1.title{
+    text-align: left!important;
+    color: green;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    transition: ease-in-out .7s;
+}
+
+/*Navigation Bar*/
+.top-menu{
+    background-color: green;/*Assigning green color*/
+    overflow: hidden;/*hiding the text overflows*/
+    
+}
+.top-menu ul li{
+    list-style-type: none;/* Removing the unordered list bullets or makers */
+    float: left;/*Align the list items horizontally*/
+    border-right: 2px solid #5ffea5;/*Adding the white border*/
+    padding: 5px 10px;/* Adding some space: vertical and horizontal */
+}
+.top-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5ffea5;
+    font-weight: 800;
+    font-size: 24px;
+
+}
+.top-menu ul li:hover{
+    background-color: #5ffea5;
+}
+.top-menu ul li:hover a{
+    text-decoration: underline;
+    color: rosybrown;
+}
+/* styling the image */
+.main-img{
+    width: 100%; /* makes the image full-width */
+    height: 100vh; /*defines the height of an image in vertical height units*/
+}
+h2{
+    text-align: left;
+    color: brown;
+    font-style: bold;
+}
+.wedding-img{
+    height: 480px;
+    width: 500px;
+}
+.wedding-img:hover{
+    opacity: .5;
+    transform: scale(1.005);
+    transition: ease-in 2s;
+}
+.marketingsection{
+    padding-top: 60px;
+}
+.marketingsection.border{
+    height: 4px !important;
+    width: 40px;
+    height: 3px;
+    margin: 10px 0px;
+}
+.marketingrow.fa{
+    width: 100px;
+    height: 97px;
+    color: #40bf80;
+    border: 2px solid #40bf80;
+    padding: 20px;
+    border-radius: 40px;
+    transition: 0.2s linear;
+}
+.marketingrow.fa:hover{
+    border-radius: 48%;
+}
+.marketingsection p{
+    max-width: 47%;
+    text-align: center;
+}
+.marketingrow{
+    max-width: 94% !important;
+}
+.bannersection{
+    position: relative;
+    margin-top: 3px;
+}
+.bannersection .bannerimage{
+    height: 10px;
+    width: 100%;
+}
+.bannerpagesection{
+    background-size: 100% 100%;
+}
+.innerbannerpagesection{
+    background: rgb(26, 26, 26,0.9);
+    background-size: 100% 100%;
+    height: 270px;
+}
+.bannercontent{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
